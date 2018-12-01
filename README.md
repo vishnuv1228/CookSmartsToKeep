@@ -5,3 +5,5 @@ You can email recipes and ingredients to yourself with CookSmarts, but I wanted 
 To Run
 
 Once you email the recipes and ingredients for the week to yourself, simply download the file to the project directory. Make sure to install BeautifulSoup and gkeepapi: https://github.com/kiwiz/gkeepapi. Replace the credentials with your gmail username and password in the keep.login() line. Replace filenames, titles, and colors as you please. Thanks!
+
+Note: I created a filter to get rid of the name of the recipes from my ingredient list (the Vegetarian line). Replace that with whatever other string you don't want in your list.
